@@ -7,7 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "doc": "jsdoc -c jsdoc.json"
+    "doc": "jsdoc -c jsdoc.json",
+    "postdeploy": "npm run doc"
   },
   "devDependencies": {
     "jsdoc": "^4.0.5",
