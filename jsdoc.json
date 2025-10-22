@@ -1,12 +1,16 @@
 {
+  "tags": {
+    "allowUnknownTags": true
+  },
   "source": {
-    "include": ["src"],
-    "exclude": ["node_modules"]
+    "include": ["./src"],
+    "includePattern": ".+\\.js(doc|x)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
   },
   "opts": {
     "destination": "./docs",
     "recurse": true,
-    "tutorials": "./tutorials",
-    "template": "minimal"
+    "template": "default"
+
   }
 }
