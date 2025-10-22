@@ -9,10 +9,12 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "jsdoc": "^4.0.5",
     "vite": "^7.1.11",
     "vite-plugin-pwa": "^1.1.0"
   },
   "dependencies": {
+    "@vitejs/plugin-react": "^5.0.4",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"
   }
