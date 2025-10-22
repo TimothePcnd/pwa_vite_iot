@@ -1,0 +1,106 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #f4f4f9;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* App Container */
+.app-container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #2c3e50;
+}
+
+/* Card Style for Toillette and Sonde */
+.card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card p {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.card strong {
+    color: #2c3e50;
+}
+
+/* Specific Styles for Toillette and Sonde */
+.card .label {
+    font-weight: bold;
+    color: #2980b9;
+}
+
+.card .value {
+    font-size: 16px;
+    color: #555;
+}
+
+/* No Data Available */
+.no-data {
+    text-align: center;
+    font-size: 18px;
+    margin-top: 30px;
+    color: #7f8c8d;
+}
+
+/* Loading and Error States */
+.loading, .error {
+    text-align: center;
+    font-size: 18px;
+    padding: 20px;
+}
+
+.loading {
+    color: #3498db;
+}
+
+.error {
+    color: #e74c3c;
+}
+
+/* Media Queries (Mobile responsiveness) */
+@media (max-width: 768px) {
+    .app-container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .card {
+        padding: 15px;
+    }
+
+    .card p {
+        font-size: 14px;
+    }
+}
