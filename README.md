@@ -26,5 +26,3 @@ L'application **SensorTech** est une Progressive Web App (PWA) conçue pour êtr
 - **Notifications Push** : Envoi de notifications push lorsque de nouvelles données arrivent ou qu'un capteur change d'état.
 - **API intégrée** : Récupération des données via l'API REST et affichage dynamique sur l'interface.
 
-
-# pwa_vite_iot
