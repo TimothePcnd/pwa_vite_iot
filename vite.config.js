@@ -19,7 +19,13 @@ export default defineConfig({
                 orientation: 'portrait-primary',
                 scope: '/',
                 start_url: './',
-                icons: []
+                icons: [
+                    {
+                        src: '/vite.svg',
+                        sizes: 'any',  // 'any' est ici approprié puisque c’est un fichier SVG
+                        type: 'image/svg+xml'
+                    }
+                ]
             },
             workbox: {
                 navigateFallback: 'index.html',
