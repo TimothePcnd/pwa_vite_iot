@@ -12,6 +12,7 @@ export default defineConfig({
                 background_color: '#ffffff',
                 display: 'standalone',
                 start_url: '/',
+                icons:[]
             },
             filename: 'manifest.webmanifest',  // Crée un fichier manifest.webmanifest
         }),
